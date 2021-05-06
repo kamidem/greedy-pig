@@ -472,3 +472,65 @@ public class GreedyPig {
 //        
 //    }    
 }
+
+//// DESTYTOJO
+//public static int kauliukoMetimas() {
+//        return (int) (Math.random() * 6 + 1);
+//    }
+//
+// 
+//
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int zt = 0;
+//        int kt = 0;
+//
+// 
+//
+//        do {
+//            int zmt = 0;
+//            int zm;
+//            do {
+//                zm = kauliukoMetimas();
+//                System.out.println(zm);
+//                if (zm != 1) {
+//                    zmt += zm;
+//                    System.out.println(zmt);
+//                    if (zt + zmt < 100) {
+//                        System.out.println("Metam dar karta? 1/0 ");
+//                        int darKarta = sc.nextInt();
+//                        if (darKarta == 0) {
+//                            zt += zmt;
+//                            zm = 1;
+//                        }
+//                    } else {
+//                        zt += zmt;
+//                        zm = 1;
+//                    }
+//                }
+//            } while (zm != 1);
+//            System.out.println(zt);
+//            if (zt < 100) {
+//                int km;
+//                int kmt = 0;
+//                int kmk = 0;
+//                do {
+//                    km = kauliukoMetimas();
+//                    System.out.print(km);
+//                    System.out.print(" ");
+//                    if (km != 1) {
+//                        kmt += km;
+//                    }
+//                } while (km != 1 && ++kmk < 5 && kmt + kt < 100);
+//                if (km != 1) {
+//                    kt += kmt;
+//                }
+//                System.out.println(kt);
+//            }
+//        } while (zt < 100 && kt < 100);
+//        if (zt > kt) {
+//            System.out.println("Laimejo zaidejas");
+//        } else {
+//            System.out.println("Laimejo kompiuteris");
+//        }
+//    }
